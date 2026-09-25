@@ -1,0 +1,17 @@
+Deployment Notes
+================
+
+1. Created a custom VPC and configured the required subnets.
+2. Created route tables and attached an Internet Gateway.
+3. Configured Security Group and Network ACL rules.
+4. Launched an Amazon Linux 2023 EC2 instance.
+5. Connected to the instance using SSH.
+6. Installed and started Nginx.
+7. Created a custom HTML page under the Nginx web root.
+8. Tested the website using the EC2 public IP.
+9. Used curl, ip, ss, DNS checks and Nginx logs while troubleshooting.
+10. Initialized Git and pushed the project to GitHub.
+
+Current status:
+The EC2 instance is stopped after completing the testing.
+The project files and documentation are stored in GitHub.
