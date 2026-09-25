@@ -1,0 +1,28 @@
+AWS DevOps Web Infrastructure
+==============================
+
+Internet
+   |
+Internet Gateway
+   |
+Public Subnet
+   |
+EC2 Instance (Amazon Linux 2023)
+   |
+Nginx Web Server
+   |
+Custom Web Page
+
+VPC: 10.0.0.0/16
+
+Network components:
+- VPC
+- Public subnets
+- Private subnets
+- Route tables
+- Internet Gateway
+- Security Group
+- Network ACL
+
+The EC2 instance was deployed in a public subnet and
+Nginx was used to serve the web page.
